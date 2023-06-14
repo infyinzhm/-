@@ -60,6 +60,7 @@
 ７．値打ち
 この経験は、広める値打ちがある
 
+
 ８．根回し（ねまわし）
 あらかじめ根回ししておく
 
@@ -67,5 +68,12 @@
 みのがす
 ききのがす
 
+
+
+
+
+关于API Hook
+https://xz.aliyun.com/t/9166
+https://cloud.tencent.com/developer/article/1015212
 
 

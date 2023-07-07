@@ -1,0 +1,15 @@
+1.Lock　Session　Search
+SELECT
+  OBJECT_NAME( t2.object_id ) AS tableName
+ ,resource_type AS type
+ ,request_session_id AS sessionId
+FROM
+  sys.dm_tran_locks t1
+INNER JOIN sys.partitions t2
+  ON t1.resource_associated_entity_id = t2.hobt_id
+WHERE
+  OBJECT_NAME( t2.object_id ) = 'TABLENAME';
+;
+
+2.Session status check
+sp_who
